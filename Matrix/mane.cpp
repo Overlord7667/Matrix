@@ -1,7 +1,10 @@
 #include<iostream>
 using namespace std;
 
-
+class Matrix;
+Matrix operator+(const Matrix& left, const Matrix& right);
+Matrix operator-(const Matrix& left, const Matrix& right);
+Matrix operator*(const Matrix& left, const Matrix& right);
 
 
 class Matrix
